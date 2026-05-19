@@ -1,0 +1,4 @@
+etapa1: haz un navbar, hero y seccion de servicios veterinarios esto con css y java incluido.
+se utiliza para crear la página principal y los requerimientos basicos.
+
+etapa1: 

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetCare</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="logo">VetCare</a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <h1>Tu mascota, nuestra prioridad</h1>
+                <p>Atención veterinaria integral: consultas, vacunación, cirugías y más. Confía en nuestro equipo profesional.</p>
+                <a class="btn primary cta" href="tel:+15551234567" aria-label="Llamar a VetCare">Llámanos ahora</a>
+            </div>
+        </section>
+
+        <section id="specialties" class="specialties">
+            <div class="container">
+                <h2>Especialidades</h2>
+                <p class="lead">Áreas y especies que atendemos en la clínica.</p>
+                <div class="specialties-grid">
+                    <div class="spec-card">
+                        <div class="icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                              <path d="M4 11c0 2 2 4 4 4s4-2 4-4-2-4-4-4-4 2-4 4zM16 7c1.657 0 3 1.343 3 3 0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3z" fill="currentColor" />
+                              <path d="M8 17c.667 1.333 2 3 4 3s3.333-1.667 4-3" stroke="currentColor" stroke-width="0"/>
+                            </svg>
+                        </div>
+                        <h4>Pequeños animales</h4>
+                        <p>Atención para perros y gatos: consultas, vacunación y cirugías menores.</p>
+                    </div>
+
+                    <div class="spec-card">
+                        <div class="icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                              <path d="M4 20c0-3 4-6 8-6s8 3 8 6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 4c1.657 0 3 1.343 3 3v3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Aves y exóticos</h4>
+                        <p>Cuidados especializados para aves, reptiles y otras especies exóticas.</p>
+                    </div>
+
+                    <div class="spec-card">
+                        <div class="icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                              <path d="M3 12c0-2 3-4 6-4s6 2 6 4-3 4-6 4-6-2-6-4z" fill="currentColor"/>
+                              <path d="M18 6l3 3-3 3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Animales de granja</h4>
+                        <p>Atención a animales de granja: bovinos, porcinos y ovinos.</p>
+                    </div>
+
+                    <div class="spec-card">
+                        <div class="icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                              <path d="M12 2c2 2 4 2 6 2s3 1 3 3-1 4-3 5-4 2-6 4-3-1-5-3-1-4 1-6 2-5 4-5z" fill="currentColor"/>
+                              <path d="M8 20c0-2 2-4 4-4s4 2 4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Conejos y pequeñas granjas</h4>
+                        <p>Manejo y cuidados para conejos y animales de pequeña producción.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>Testimonios</h2>
+                <p class="lead">Lo que dicen nuestros clientes</p>
+                <div class="testi-wrap">
+                    <button class="t-prev" aria-label="Anterior">‹</button>
+                    <div class="testi-list">
+                        <blockquote class="testi" data-index="0">
+                            <p>El equipo de VetCare salvó a mi perro. Atención rápida y humana.</p>
+                            <cite>- María R.</cite>
+                        </blockquote>
+                        <blockquote class="testi" data-index="1" aria-hidden="true">
+                            <p>Grandes profesionales, muy claros con el diagnóstico y tratamiento.</p>
+                            <cite>- Carlos M.</cite>
+                        </blockquote>
+                        <blockquote class="testi" data-index="2" aria-hidden="true">
+                            <p>Excelentes cuidados postoperatorios y seguimiento constante.</p>
+                            <cite>- Laura G.</cite>
+                        </blockquote>
+                    </div>
+                    <button class="t-next" aria-label="Siguiente">›</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Servicios veterinarios</h2>
+                <p class="lead">Cubrimos las necesidades de tu mascota con amor y profesionalismo.</p>
+                <div class="services-grid">
+                    <article class="service-card" data-title="Consulta general" data-desc="Revisiones, diagnóstico y plan de tratamiento personalizado.">
+                        <div class="icon">🐾</div>
+                        <h3>Consultas Medicas y Diagnostico</h3>
+                        <p>Evaluación general y atención preventiva.</p>
+                        <button class="btn secondary">Más info</button>
+                    </article>
+
+                    <article class="service-card" data-title="Vacunación" data-desc="Programas de vacunación para todas las edades y especies.">
+                        <div class="icon">💉</div>
+                        <h3>Vacunación y Desparasitación</h3>
+                        <p>Protege a tu mascota contra enfermedades comunes.</p>
+                        <button class="btn secondary">Más info</button>
+                    </article>
+
+                    <article class="service-card" data-title="Cirugía" data-desc="Cirugías programadas y de emergencia con anestesia controlada.">
+                        <div class="icon">🩺</div>
+                        <h3>Cirugía y Recuperación</h3>
+                        <p>Procedimientos seguros y cuidados postoperatorios.</p>
+                        <button class="btn secondary">Más info</button>
+                    </article>
+
+                    <article class="service-card" data-title="Grooming" data-desc="Cuidado y mantenimiento del pelaje y la piel de tu mascota.">
+                        <div class="icon">🛁</div>
+                        <h3>Grooming y Estética</h3>
+                        <p>Cuidado y mantenimiento del pelaje y la piel de tu mascota.</p>
+                        <button class="btn secondary">Más info</button>
+                    </article>
+
+                    <article class="service-card" data-title="Internación" data-desc="Cuidados intensivos y seguimiento médico continuo.">
+                        <div class="icon">🏥</div>
+                        <h3>Internación y Cuidados Intensivos</h3>
+                        <p>Atención médica continua cuando tu mascota lo requiera.</p>
+                        <button class="btn secondary">Más info</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p class="lead">¿Tienes dudas o quieres agendar una cita? Contáctanos.</p>
+                <p>Email: contacto@vetcare.example | Tel: +1 555 123 4567</p>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
